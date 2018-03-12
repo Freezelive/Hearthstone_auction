@@ -1,8 +1,6 @@
-<?php /* Template Name: auctiontemple */ ?>
+<?php /* Template Name: auctiontemplate */ ?>
  
-<?php get_header(); 
- //https://stackoverflow.com/questions/768431/how-to-make-a-redirect-in-php redirect
-?>
+<?php get_header(); ?>
 
 <?php ;
 $user_right= get_current_user_id();  //if 0 they are visitors. everything else its a user
