@@ -1,0 +1,46 @@
+<html>
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/Script.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <script src="./js/DoWeHaveAUser.js"></script>
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="login-form" id="inputForm">
+            <div class="main-div">
+                <div class="panel">
+                    <h2>Welcome, adventurer!</h2>
+                    <p>It's time to see your deck</p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="DeckString" placeholder="Please enter your generated deck code here: ">
+                </div>
+                    <button onclick="formsubmit();" class="btn btn-primary">Decode!</button>
+            </div>
+
+        </div>
+    
+
+
+        <div id="table" class="table">
+        
+        </div>
+
+        <button id="verifbutt" onclick="Verify();" class="btn btn-primary" style="display: none;">Verify!</button>
+
+     </div>
+
+        
+
+
+</body>
+
+
+
+
+
+
+</html>

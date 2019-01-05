@@ -1,0 +1,1 @@
+{"artist":"Anton Zemskov","cardClass":"HUNTER","collectible":true,"cost":5,"dbfId":50466,"flavor":"The card is common, but the steak is rare.","id":"TRL_347","mechanics":["OVERKILL"],"name":"Baited Arrow","playRequirements":{"REQ_TARGET_TO_PLAY":0},"rarity":"COMMON","set":"TROLL","text":"Deal $3 damage. <b>Overkill:<\/b> Summon a 5\/5 Devilsaur.","type":"SPELL"}
